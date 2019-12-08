@@ -22,26 +22,26 @@ Acceptance Criteria:
 
 Acceptance Criteria 1:
 	Given a Spiral Memory Generator is available
-	When I enter 1 as the input to the list of squares
-	Then the system should display 0 as the steps to return to the square 1
+	When I enter 1 
+	Then the system should display 0 
 	
 
 Acceptance Criteria 2:
 	Given a Spiral Memory Generator is available
-	When I enter 10 as the input to the list of squares
-	Then the system should display 3 as the steps to return to the square 1
+	When I enter 10 
+	Then the system should display 3 
 
 Acceptance Criteria 3:
 	Given a Spiral Memory Generator is available
-	When I enter 2000 as the input to the list of squares
+	When I enter 2000 
 	Then the system should display 25 as the steps to return to the square 1
 
 
 Acceptance Criteria 4:
 	Given a Spiral Memory Generator is available
-	When I enter 1024 as the input to the list of squares
-	Then the system should display 31 as the steps to return to the square 1
-
+	When I enter 1024 
+	Then the system should display 31 
+	
 Acceptance Criteria 5:
 	Given a Spiral Memory Generator is available
 	When I enter a valid random number as a square element [min value /starting point] in a spiral memory
@@ -57,13 +57,13 @@ Acceptance Criteria 6:
 
 Acceptance Criteria 7:
 	Given a Spiral Memory Generator is available
-	When I enter valid predefined square element as "-10" [Negative Number] for a spiral memory
+	When I enter "-10" [Negative Number]
 	Then the  system should display an error message as "You have entered Invalid Entry [Ex. 0 or Negative numbers or Invalid Alpha numerical characters]."
 
 
 Acceptance Criteria 8:
 	Given a Spiral Memory Generator is available
-	When i enter invalid square element [Alphanumeric text] in a spiral memory
+	When i enter text[Alphanumeric text] in a spiral memory
 	Then the  system should display an error message as "You have entered Invalid Entry [Ex. 0 or Negative numbers or Invalid Alpha numerical characters]."
 
       
